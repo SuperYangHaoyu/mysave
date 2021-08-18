@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/注册成为志愿者"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:layout_x="84dp"
+        android:layout_y="14dp"
+        android:text="注册成为志愿者"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/个人基本信息"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="71dp"
+        android:text="个人基本信息"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/国家地区"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="131dp"
+        android:text="*国家/地区：" />
+
+
+    <Spinner
+        android:id="@+id/Spinner1"
+        android:layout_width="218dp"
+        android:layout_height="55dp"
+        android:layout_x="106dp"
+        android:layout_y="111dp"
+        android:entries="@array/erea" />
+<!--    要在value中添加选项  用entries调用-->
+
+    <TextView
+        android:id="@+id/姓名"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="180dp"
+        android:text="*请输入真实姓名：" />
+
+    <EditText
+        android:id="@+id/姓名输入"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="159dp" />
+
+    <TextView
+        android:id="@+id/证件类型"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="247dp"
+        android:text="*证件类型：" />
+
+    <Spinner
+        android:id="@+id/Spinner2"
+        android:layout_width="194dp"
+        android:layout_height="47dp"
+        android:layout_x="111dp"
+        android:layout_y="228dp"
+        android:entries="@array/identify" />
+    <!--    要在value中添加选项  用entries调用-->
+
+    <TextView
+        android:id="@+id/证件号码"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="308dp"
+        android:text="*证件号码：" />
+
+    <EditText
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_x="106dp"
+        android:layout_y="290dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="359dp"
+        android:text="*性别：" />
+
+    <RadioButton
+        android:id="@+id/男"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="105dp"
+        android:layout_y="344dp"
+        android:text="男" />
+
+    <RadioButton
+        android:id="@+id/女"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="226dp"
+        android:layout_y="343dp"
+        android:text="女" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="446dp"
+        android:text="*手机:" />
+
+    <EditText
+        android:layout_width="162dp"
+        android:layout_height="wrap_content"
+        android:layout_x="105dp"
+        android:layout_y="423dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="503dp"
+        android:text="*服务区域:" />
+
+    <EditText
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="484dp" />
+
+    <Button
+        android:id="@+id/上一步"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="553dp"
+        android:text="上一步" />
+
+    <Button
+        android:id="@+id/点击注册"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="266dp"
+        android:layout_y="553dp"
+        android:text="点击注册" />
+
+
+</AbsoluteLayout>

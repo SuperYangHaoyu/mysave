@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/寻人启事标题"
+        android:layout_width="382dp"
+        android:layout_height="60dp"
+        android:layout_x="9dp"
+        android:layout_y="16dp"
+        android:text="寻人启事"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/上传头像"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="185dp"
+        android:text="点击上传头像" />
+
+    <TextView
+        android:id="@+id/名字"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_x="150dp"
+        android:layout_y="145dp"
+        android:text="*姓名："
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/年龄"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="149dp"
+        android:layout_y="241dp"
+        android:text="*年龄:"
+        android:textSize="35dp" />
+
+    <TextView
+        android:id="@+id/描述"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="322dp"
+        android:text="*简要介绍:"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/名字编辑"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="254dp"
+        android:layout_y="146dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="请输入名字" />
+
+    <EditText
+        android:id="@+id/年龄填写"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="260dp"
+        android:layout_y="241dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="请输入年龄" />
+
+    <EditText
+        android:id="@+id/描述人员填写"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_x="167dp"
+        android:layout_y="324dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="请对失踪人员进行简单描述"
+        android:textAlignment="textStart"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/取消"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="154dp"
+        android:layout_y="937dp"
+        android:text="取消" />
+
+    <Button
+        android:id="@+id/确认"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="407dp"
+        android:layout_y="937dp"
+        android:text="确认发布" />
+
+    <TextView
+        android:id="@+id/联系方式"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="493dp"
+        android:text="*联系方式:"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/联系方式输入"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="494dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="请输入联系方式" />
+
+</AbsoluteLayout>

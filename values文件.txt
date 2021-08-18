@@ -1,0 +1,26 @@
+1   <?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="erea">
+        <item>选择国家/地区</item>
+        <item>中国</item>
+        <item>美国</item>
+        <item>英国</item>
+    </string-array>
+</resources>
+
+
+
+
+
+2     <?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name='identify'>
+        <item>选择证件类型</item>
+        <item>身份证</item>
+        <item>学生证</item>
+        <item>护照</item>
+    </string-array>
+</resources>
+
+
+
